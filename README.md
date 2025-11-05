@@ -1,7 +1,7 @@
 <h1 align="center">Hey there 👋, I'm Mohammad Ahmad</h1>
 <h3 align="center">🚀 Full-Stack Developer | CSE Undergrad | Exploring AI & Web3</h3>
 
-<img align="right" alt="Coding" width="380" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+<img align="right" alt="Coding" width="380" src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif">
 
 ### 💡 About Me
 - 🌱 Currently deep-diving into **AI Integration & Web3 Development**
@@ -49,9 +49,9 @@
 ### 🚀 Featured Projects
 | Project | Description | Tech Stack |
 |----------|--------------|-------------|
-| [CraftMyProfile](https://github.com/bitsnbytes14/CraftMyProfile) | AI-powered personal branding & resume builder platform | React, Node.js, Express, MongoDB, OpenAI |
-| [ACL Graft Size Prediction](https://github.com/bitsnbytes14/ACL-Graft-Size-Prediction) | Machine learning model that predicts ACL graft size for reconstruction surgeries using clinical and synthetic data | Python, Scikit-learn, Pandas, Matplotlib |
-| [Event Ticket Management System](https://github.com/bitsnbytes14/Event-Ticket-Management-System) | Full-stack ticketing platform for event management | Java, MySQL, JDBC, Swing UI |
+| [AI Resume Builder](https://github.com/Bitsnbytes14/AI-Resume-Builder) | AI-powered platform for creating personalized, ATS-optimized resumes with intelligent recommendations | React, Node.js, Express, MongoDB, OpenAI |
+| [Vairava - ACL Graft Predictor](https://github.com/Bitsnbytes14/Vairava---ACL-Graft-Predictor) | Machine learning model predicting ACL graft size using patient data and synthetic datasets for better surgical planning | Python, Scikit-learn, Pandas, Matplotlib |
+| [Event Ticket Management System](https://github.com/Bitsnbytes14/Event-Management-Ticket-System) | Full-stack application for managing and booking event tickets efficiently | Java, MySQL, JDBC, Swing UI |
 
 ---
 
