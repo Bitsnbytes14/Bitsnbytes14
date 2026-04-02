@@ -18,7 +18,7 @@
 
 ### 🌐 Connect with Me
 <p align="left">
-<a href="https://linkedin.com/in/mohammad-ahmad-71141927a" target="_blank">
+<a href="www.linkedin.com/in/mohammad-ahmad141004" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 <a href="https://instagram.com/ahmadwantstosleep" target="_blank">
