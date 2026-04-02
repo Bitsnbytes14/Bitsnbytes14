@@ -1,5 +1,5 @@
 <h1 align="center">Hey there 👋, I'm Mohammad Ahmad</h1>
-<h3 align="center">🚀 Full-Stack Developer | CSE Undergrad | AI & Web3 Explorer</h3>
+<h3 align="center">🚀 Full-Stack Developer | CSE Undergrad | CLOUD & DevOps </h3>
 
 <p align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="480" alt="Coding GIF"/>
