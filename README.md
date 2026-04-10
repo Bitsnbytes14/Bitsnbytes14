@@ -110,7 +110,7 @@ Currently exploring:
 - Full-stack platform generating ATS-friendly resumes with AI-powered personalized suggestions
 - Built the complete backend API, OpenAI integration pipeline, and MongoDB data layer from scratch
 
-**Tech:** `React` `Node.js` `Express` `MongoDB` `OpenAI API`
+**Tech:** `React` `Node.js` `Express` `MongoDB` `Gemini API`
 
 ---
 
