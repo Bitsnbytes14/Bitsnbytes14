@@ -23,6 +23,9 @@
   <a href="https://github.com/Bitsnbytes14">
     <img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white" />
   </a>
+  <a href="https://leetcode.com/u/ahmad1410/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" />
+  </a>
   <a href="https://www.instagram.com/ahmadwantstosleep?igsh=MW93ajR1ODFvOGk5MA%3D%3D&utm_source=qr">
     <img src="https://img.shields.io/badge/Instagram-E1306C?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
@@ -122,6 +125,14 @@ Currently exploring:
 
 ---
 
+## Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Bitsnbytes14&theme=react-dark&hide_border=true" alt="Contribution Graph" />
+</p>
+
+---
+
 ## 📍 Currently
 
 ```yaml
@@ -130,19 +141,6 @@ focus:     backend systems · cloud infrastructure · AI tooling
 learning:  Kubernetes · system design · advanced DevOps
 building:  things that solve real problems
 ```
-
----
-
-## Core CS
-
-- Data Structures & Algorithms
-- Object-Oriented Programming
-- Database Management Systems
-- Operating Systems
-- Computer Networks
-- Distributed Systems
-
----
 
 ---
 
@@ -157,6 +155,9 @@ building:  things that solve real problems
   </a>
   <a href="https://github.com/Bitsnbytes14">
     <img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://leetcode.com/u/ahmad1410/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" />
   </a>
   <a href="https://www.instagram.com/ahmadwantstosleep?igsh=MW93ajR1ODFvOGk5MA%3D%3D&utm_source=qr">
     <img src="https://img.shields.io/badge/Instagram-E1306C?style=for-the-badge&logo=instagram&logoColor=white" />
