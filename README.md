@@ -43,7 +43,4 @@ LeetCode      :: /u/ahmad1410
 </div>
 
 
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Bitsnbytes14&theme=github-compact&hide_border=true&bg_color=0D1117&color=00FF9C&line=00FF9C&point=ffffff&area=true" />
-</div>
-</details>
+
