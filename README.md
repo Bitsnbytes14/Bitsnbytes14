@@ -36,11 +36,7 @@ Email         :: mahmad091323@gmail.com
 LinkedIn      :: /in/mohammad-ahmad141004
 LeetCode      :: /u/ahmad1410
 ```
-<div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Bitsnbytes14&theme=react&hide_border=true&background=0D1117&ring=00FF9C&fire=00FF9C&currStreakLabel=00FF9C" width="49%" />
-
-</div>
 
 
 
