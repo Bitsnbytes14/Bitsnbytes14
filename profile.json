@@ -1,0 +1,17 @@
+{
+  "name": "Mohammad Ahmad",
+  "role": "Software Engineer / Backend Developer",
+  "focus": "Backend Development & Distributed Systems",
+  "education": "Symbiosis Institute of Technology, Pune",
+  "status": "Building · Learning · Shipping",
+  "stack": [
+    ["lang", "Java, JavaScript, Python, TypeScript"],
+    ["backend", "Node.js, Express, FastAPI"],
+    ["database", "PostgreSQL, MongoDB, Redis"],
+    ["infra", "AWS, Docker, Kubernetes, GitHub Actions"]
+  ],
+  "links": [
+    ["github", "github.com/Bitsnbytes14"],
+    ["linkedin", "linkedin.com/in/mohammad-ahmad141004"]
+  ]
+}
