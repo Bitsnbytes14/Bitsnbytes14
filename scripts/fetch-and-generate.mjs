@@ -1,7 +1,5 @@
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
-import { renderRadarSVG } from '../lib/render-radar-svg.mjs';
-import { renderIdentitySVG } from '../lib/render-identity-svg.mjs';
-import { renderStatsSVG } from '../lib/render-stats-svg.mjs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync, unlinkSync } from 'node:fs';
+import { renderConsoleSVG } from '../lib/render-console-svg.mjs';
 
 const USERNAME = process.env.GH_USERNAME;
 const TOKEN = process.env.GH_TOKEN;
@@ -79,26 +77,26 @@ const consistencyPct = Math.round((activeDays / allDays.length) * 100);
 const total = calendar.totalContributions;
 const level = Math.max(1, Math.floor(total / 100) + 1);
 
-const radarSvg = renderRadarSVG(weeks, {
-  title: 'CONTRIB://RADAR_SCAN',
-  subtitle: `TOTAL ${total.toLocaleString()} · STREAK ${currentStreak}D`,
-  duration: 22,
-});
-const widthMatch = radarSvg.match(/width="(\d+)"/);
-const sharedWidth = widthMatch ? parseInt(widthMatch[1], 10) : 1160;
-
 const profile = JSON.parse(readFileSync(new URL('../profile.json', import.meta.url)));
-const identitySvg = renderIdentitySVG(profile, { width: sharedWidth });
-
 const roleTitle = (profile.roleShort || profile.role).toUpperCase();
-const statsSvg = renderStatsSVG(
-  { xp: total, level, roleTitle, combo: currentStreak, shieldDays: longestStreak, consistencyPct },
-  { width: sharedWidth },
-);
+
+const svg = renderConsoleSVG({
+  weeks,
+  radarOpts: {
+    title: 'CONTRIB://RADAR_SCAN',
+    subtitle: `TOTAL ${total.toLocaleString()} · STREAK ${currentStreak}D`,
+    duration: 22,
+  },
+  profile,
+  statsMetrics: { xp: total, level, roleTitle, combo: currentStreak, shieldDays: longestStreak, consistencyPct },
+});
 
 mkdirSync(new URL('../dist', import.meta.url), { recursive: true });
-writeFileSync(new URL('../dist/radar-grid.svg', import.meta.url), radarSvg, 'utf8');
-writeFileSync(new URL('../dist/identity-card.svg', import.meta.url), identitySvg, 'utf8');
-writeFileSync(new URL('../dist/stats-bar.svg', import.meta.url), statsSvg, 'utf8');
+writeFileSync(new URL('../dist/console-card.svg', import.meta.url), svg, 'utf8');
 
-console.log(`Wrote all 3 cards @ width ${sharedWidth} — ${total} contributions, streak ${currentStreak}d, best ${longestStreak}d, consistency ${consistencyPct}%`);
+for (const f of ['radar-grid.svg', 'identity-card.svg', 'stats-bar.svg']) {
+  const p = new URL(`../dist/${f}`, import.meta.url);
+  if (existsSync(p)) unlinkSync(p);
+}
+
+console.log(`Wrote dist/console-card.svg — ${total} contributions, streak ${currentStreak}d, best ${longestStreak}d, consistency ${consistencyPct}%`);
