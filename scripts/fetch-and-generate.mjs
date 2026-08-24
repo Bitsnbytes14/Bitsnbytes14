@@ -89,6 +89,7 @@ const svg = renderConsoleSVG({
   },
   profile,
   statsMetrics: { xp: total, level, roleTitle, combo: currentStreak, shieldDays: longestStreak, consistencyPct },
+  footer: `[ SECTOR: ${USERNAME} // STATUS: ONLINE // LAST SCAN: ${new Date().toISOString().slice(0, 10)} ]`,
 });
 
 mkdirSync(new URL('../dist', import.meta.url), { recursive: true });
