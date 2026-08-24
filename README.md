@@ -2,17 +2,11 @@
 <img src="./dist/identity-card.svg" alt="identity card" />
 </div>
 
-<br/>
-
 <div align="center">
-
-![Skills](https://skillicons.dev/icons?i=java,js,ts,python,nodejs,express,postgres,mongodb,redis,docker,kubernetes,aws,githubactions&theme=dark)
-
+<img src="./dist/stats-bar.svg" alt="loadout stats" />
 </div>
 
 <br/>
-
-### `contrib://radar_scan`
 
 <div align="center">
 <img src="./dist/radar-grid.svg" alt="contribution radar" width="100%" />
