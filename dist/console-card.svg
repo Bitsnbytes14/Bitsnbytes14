@@ -76,25 +76,37 @@
   
   <g>
     <g>
-      <circle cx="0" cy="0" r="16" fill="#ffb454" opacity="0.10">
+      <circle cx="0" cy="-6" r="16" fill="#ffb454" opacity="0.10">
         <animate attributeName="opacity" values="0.05;0.20;0.05" dur="2.8s" repeatCount="indefinite"/>
       </circle>
-      <g stroke="#ffb454" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
-        <!-- head, tucked forward into the slope -->
-        <circle cx="2" cy="-13" r="3.2" fill="#ffb454" stroke="none"/>
-        <!-- torso, leaning uphill -->
-        <path d="M1,-10 L-2,-1"/>
-        <!-- lead arm reaching high for the next hold -->
-        <path d="M1,-8 L6,-13 L9,-19"/>
-        <!-- trailing arm gripping low -->
-        <path d="M1,-8 L-5,-10 L-8,-6"/>
-        <!-- lead leg driven up, knee bent -->
-        <path d="M-2,-1 L4,2 L3,9"/>
-        <!-- trailing leg extended back down the slope -->
-        <path d="M-2,-1 L-7,5 L-9,12"/>
+      <g opacity="1">
+        
+    <g stroke="#ffb454" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <circle cx="2" cy="-13" r="3.1" fill="#ffb454" stroke="none"/>
+      <path d="M1,-10 L-1,-2"/>
+      <path d="M1,-10 L5,-16 L7,-23"/>
+      <path d="M1,-10 L-5,-9 L-3,-15"/>
+      <path d="M-1,-2 L5,-1 L4,6"/>
+      <path d="M-1,-2 L-6,1 L-4,8"/>
+    </g>
+        <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.42;0.5;0.92;1" dur="1.6s" repeatCount="indefinite"/>
       </g>
-      <animateTransform attributeName="transform" type="rotate"
-        values="-4 0 -2; 3 0 -2; -4 0 -2" dur="1.8s" repeatCount="indefinite"/>
+      <g opacity="0">
+        
+    <g stroke="#ffb454" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <circle cx="1" cy="-15" r="3.1" fill="#ffb454" stroke="none"/>
+      <path d="M0,-12 L-1,-4"/>
+      <path d="M0,-12 L-4,-17 L-6,-24"/>
+      <path d="M0,-12 L6,-13 L4,-19"/>
+      <path d="M-1,-4 L5,-4 L5,3"/>
+      <path d="M-1,-4 L-6,-2 L-5,5"/>
+    </g>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.42;0.5;0.92;1" dur="1.6s" repeatCount="indefinite"/>
+      </g>
+      <!-- slight vertical bob synced to the pull, so the reach has weight -->
+      <animateTransform attributeName="transform" type="translate"
+        values="0,1.5; 0,1.5; 0,-1.5; 0,-1.5; 0,1.5" keyTimes="0;0.42;0.5;0.92;1"
+        dur="1.6s" repeatCount="indefinite"/>
     </g>
     <animateMotion dur="15s" repeatCount="indefinite" rotate="0">
       <mpath href="#ascentRoute" xlink:href="#ascentRoute"/>
