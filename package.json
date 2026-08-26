@@ -4,7 +4,6 @@
   "type": "module",
   "engines": { "node": ">=18" },
   "scripts": {
-    "preview": "node scripts/generate-preview.mjs",
-    "generate": "node scripts/fetch-and-generate.mjs"
+    "generate": "node scripts/generate.mjs"
   }
 }

@@ -1,10 +1,8 @@
 {
   "name": "Mohammad Ahmad",
   "role": "Software Engineer / Backend Developer",
-  "roleShort": "Backend Engineer",
   "focus": "Backend Development & Distributed Systems",
   "education": "Symbiosis Institute of Technology, Pune",
-  "status": "Building · Learning · Shipping",
   "stack": [
     ["lang", "Java, JavaScript, Python, TypeScript"],
     ["backend", "Node.js, Express, FastAPI"],
@@ -14,5 +12,12 @@
   "links": [
     ["github", "github.com/Bitsnbytes14"],
     ["linkedin", "linkedin.com/in/mohammad-ahmad141004"]
-  ]
+  ],
+  "tagline": "Building systems. Chasing impossible summits.",
+  "seeking": [
+    ["roles", "Software Engineering Internships"],
+    ["building", "RoomSync — multi-service roommate allocation system"],
+    ["learning", "Rust, System Design"]
+  ],
+  "footer": "[ THE SUMMIT IS ALWAYS ONE MORE COMMIT AWAY ]"
 }
