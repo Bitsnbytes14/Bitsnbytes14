@@ -1,5 +1,5 @@
-<svg width="900" height="977" viewBox="0 0 900 977" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="'JetBrains Mono','Fira Code',ui-monospace,Menlo,Consolas,monospace">
-  <rect x="0" y="0" width="900" height="977" rx="8" fill="#0a0e14" stroke="#1f2833" stroke-width="1"/>
+<svg width="900" height="1043" viewBox="0 0 900 1043" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="'JetBrains Mono','Fira Code',ui-monospace,Menlo,Consolas,monospace">
+  <rect x="0" y="0" width="900" height="1043" rx="8" fill="#0a0e14" stroke="#1f2833" stroke-width="1"/>
   
   <text x="26" y="48" fill="#5ee6d8" font-size="26" font-weight="bold" letter-spacing="2">&gt;_ BITSNBYTES14</text>
   <text x="26" y="71" fill="#5b6b7c" font-size="11.5" letter-spacing="1.6">BUILDING SYSTEMS. CHASING IMPOSSIBLE SUMMITS.</text>
@@ -166,11 +166,54 @@
   
   <line x1="26" y1="931" x2="874" y2="931" stroke="#1f2833" stroke-width="1"/>
   <text x="450" y="949" fill="#5b6b7c" font-size="10.5" letter-spacing="1.4" text-anchor="middle">[ THE SUMMIT IS ALWAYS ONE MORE COMMIT AWAY ]</text>
+  <g transform="translate(0,967)"><svg x="0" y="0" width="900" height="68" viewBox="0 0 900 68">
+  <defs>
+    <linearGradient id="roadGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d131b"/>
+      <stop offset="100%" stop-color="#070b11"/>
+    </linearGradient>
+    <linearGradient id="horizonGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5ee6d8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#5ee6d8" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#5ee6d8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="900" height="68" fill="url(#roadGrad)"/>
+  <rect x="0" y="30" width="900" height="1.2" fill="url(#horizonGlow)"/>
+  
+  <g>
+    <line x1="0" y1="52" x2="960" y2="52"
+      stroke="#5b6b7c" stroke-width="1.6"
+      stroke-dasharray="16 18" opacity="0.45">
+      <animate attributeName="stroke-dashoffset" values="34;0" dur="1.1s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  <g transform="translate(0,44)">
+  <g>
+    <!-- underglow -->
+    <ellipse cx="0" cy="1" rx="30" ry="4" fill="#5ee6d8" opacity="0.12"/>
+    <!-- headlight throw, forward (right) -->
+    <path d="M24,-7 L64,-14 L64,-1 L24,-3 Z" fill="#dce9f5" opacity="0.07"/>
+    <!-- body -->
+    <path d="M-26,-1 L-24,-9 L-12,-10 L-4,-17 L10,-17 L18,-10 L26,-9 L27,-1 Z"
+      fill="#161f2b" stroke="#5b6b7c" stroke-width="1" stroke-linejoin="round"/>
+    <!-- glasshouse -->
+    <path d="M-10,-10 L-3,-15 L9,-15 L15,-10 Z" fill="#0d131b" opacity="0.9"/>
+    <!-- tail light -->
+    <rect x="-26.5" y="-7" width="3" height="2.6" rx="1" fill="#ff5f56" opacity="0.95"/>
+    <!-- head light -->
+    <rect x="23.5" y="-7.5" width="3.5" height="2.6" rx="1" fill="#dce9f5" opacity="0.95"/>
+    <!-- wheels -->
+    <circle cx="-15" cy="-1" r="4.2" fill="#05080c" stroke="#5b6b7c" stroke-width="1"/>
+    <circle cx="15" cy="-1" r="4.2" fill="#05080c" stroke="#5b6b7c" stroke-width="1"/>
+    <animateTransform attributeName="transform" type="translate"
+      values="-90,0; 990,0" dur="9s" repeatCount="indefinite"/>
+  </g></g></svg></g>
   
   <g stroke="#5b6b7c" stroke-width="1.2" fill="none" opacity="0.7">
     <path d="M4,16 L4,4 L16,4"/>
     <path d="M884,4 L896,4 L896,16"/>
-    <path d="M4,961 L4,973 L16,973"/>
-    <path d="M884,973 L896,973 L896,961"/>
+    <path d="M4,1027 L4,1039 L16,1039"/>
+    <path d="M884,1039 L896,1039 L896,1027"/>
   </g>
 </svg>
