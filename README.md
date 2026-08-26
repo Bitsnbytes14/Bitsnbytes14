@@ -1,3 +1,3 @@
 <div align="center">
-<img src="./dist/console-card.svg?v=2" alt="profile console" width="100%" />
+<img src="./dist/console-card.svg?v=3" alt="profile console" width="100%" />
 </div>

@@ -76,37 +76,29 @@
   
   <g>
     <g>
-      <circle cx="0" cy="-6" r="16" fill="#ffb454" opacity="0.10">
-        <animate attributeName="opacity" values="0.05;0.20;0.05" dur="2.8s" repeatCount="indefinite"/>
+      <!-- trailing wake: short tapered streak behind the beacon -->
+      <path d="M0,0 L-13,9" stroke="#ffb454" stroke-width="2.6"
+        stroke-linecap="round" opacity="0.28"/>
+      <path d="M0,0 L-7,5" stroke="#ffb454" stroke-width="3.2"
+        stroke-linecap="round" opacity="0.5"/>
+
+      <!-- outer halo, slow breathing -->
+      <circle cx="0" cy="0" r="13" fill="#ffb454" opacity="0.10">
+        <animate attributeName="opacity" values="0.06;0.20;0.06"
+          dur="2.6s" repeatCount="indefinite"/>
       </circle>
-      <g opacity="1">
-        
-    <g stroke="#ffb454" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
-      <circle cx="2" cy="-13" r="3.1" fill="#ffb454" stroke="none"/>
-      <path d="M1,-10 L-1,-2"/>
-      <path d="M1,-10 L5,-16 L7,-23"/>
-      <path d="M1,-10 L-5,-9 L-3,-15"/>
-      <path d="M-1,-2 L5,-1 L4,6"/>
-      <path d="M-1,-2 L-6,1 L-4,8"/>
-    </g>
-        <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.42;0.5;0.92;1" dur="1.6s" repeatCount="indefinite"/>
-      </g>
-      <g opacity="0">
-        
-    <g stroke="#ffb454" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
-      <circle cx="1" cy="-15" r="3.1" fill="#ffb454" stroke="none"/>
-      <path d="M0,-12 L-1,-4"/>
-      <path d="M0,-12 L-4,-17 L-6,-24"/>
-      <path d="M0,-12 L6,-13 L4,-19"/>
-      <path d="M-1,-4 L5,-4 L5,3"/>
-      <path d="M-1,-4 L-6,-2 L-5,5"/>
-    </g>
-        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.42;0.5;0.92;1" dur="1.6s" repeatCount="indefinite"/>
-      </g>
-      <!-- slight vertical bob synced to the pull, so the reach has weight -->
-      <animateTransform attributeName="transform" type="translate"
-        values="0,1.5; 0,1.5; 0,-1.5; 0,-1.5; 0,1.5" keyTimes="0;0.42;0.5;0.92;1"
-        dur="1.6s" repeatCount="indefinite"/>
+
+      <!-- expanding ping ring -->
+      <circle cx="0" cy="0" r="4" fill="none" stroke="#ffb454" stroke-width="1.3" opacity="0">
+        <animate attributeName="r" values="4;17;17" dur="2.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.85;0;0" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- bright core with a subtle pulse -->
+      <circle cx="0" cy="0" r="4.2" fill="#ffb454">
+        <animate attributeName="r" values="3.8;4.8;3.8" dur="1.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="1.8" fill="#fff6e6" opacity="0.9"/>
     </g>
     <animateMotion dur="15s" repeatCount="indefinite" rotate="0">
       <mpath href="#ascentRoute" xlink:href="#ascentRoute"/>
