@@ -1,121 +1,156 @@
-<svg width="900" height="868.1499999999999" viewBox="0 0 900 868.1499999999999" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','Fira Code',ui-monospace,Menlo,Consolas,monospace">
-  <rect x="0" y="0" width="900" height="868.1499999999999" rx="8" fill="#0a0e14" stroke="#1f2833" stroke-width="1"/>
+<svg width="900" height="977" viewBox="0 0 900 977" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','Fira Code',ui-monospace,Menlo,Consolas,monospace">
+  <rect x="0" y="0" width="900" height="977" rx="8" fill="#0a0e14" stroke="#1f2833" stroke-width="1"/>
   
   <text x="26" y="48" fill="#5ee6d8" font-size="26" font-weight="bold" letter-spacing="2">&gt;_ BITSNBYTES14</text>
   <text x="26" y="71" fill="#5b6b7c" font-size="11.5" letter-spacing="1.6">BUILDING SYSTEMS. CHASING IMPOSSIBLE SUMMITS.</text>
   <line x1="26" y1="82" x2="874" y2="82" stroke="#1f2833" stroke-width="1"/>
-  <g transform="translate(0,88)"><svg x="0" y="0" width="900" height="250" viewBox="0 0 900 250">
+  <g transform="translate(0,88)"><svg x="0" y="0" width="900" height="300" viewBox="0 0 900 300">
   <defs>
     <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#0b1220"/>
       <stop offset="100%" stop-color="#0d131b"/>
     </linearGradient>
   </defs>
-  <rect x="0" y="0" width="900" height="250" fill="url(#skyGrad)"/>
-  <circle cx="70.0" cy="40" r="1.1" fill="#dce9f5" opacity="0.7">
+  <rect x="0" y="0" width="900" height="300" fill="url(#skyGrad)"/>
+  <circle cx="70.0" cy="44" r="1.1" fill="#dce9f5" opacity="0.7">
       <animate attributeName="opacity" values="0.15;0.85;0.15" dur="3.4s" begin="0s" repeatCount="indefinite"/>
     </circle>
-<circle cx="140.0" cy="72" r="0.9" fill="#dce9f5" opacity="0.7">
+<circle cx="140.0" cy="78" r="0.9" fill="#dce9f5" opacity="0.7">
       <animate attributeName="opacity" values="0.15;0.85;0.15" dur="3.4s" begin="1.3s" repeatCount="indefinite"/>
     </circle>
-<circle cx="215.0" cy="32" r="1.3" fill="#dce9f5" opacity="0.7">
+<circle cx="215.0" cy="34" r="1.3" fill="#dce9f5" opacity="0.7">
       <animate attributeName="opacity" values="0.15;0.85;0.15" dur="3.4s" begin="2.1s" repeatCount="indefinite"/>
     </circle>
-<circle cx="300.0" cy="60" r="1" fill="#dce9f5" opacity="0.7">
+<circle cx="300.0" cy="64" r="1" fill="#dce9f5" opacity="0.7">
       <animate attributeName="opacity" values="0.15;0.85;0.15" dur="3.4s" begin="0.7s" repeatCount="indefinite"/>
     </circle>
-<circle cx="380.0" cy="28" r="1.2" fill="#dce9f5" opacity="0.7">
+<circle cx="380.0" cy="30" r="1.2" fill="#dce9f5" opacity="0.7">
       <animate attributeName="opacity" values="0.15;0.85;0.15" dur="3.4s" begin="1.8s" repeatCount="indefinite"/>
     </circle>
-<circle cx="470.0" cy="66" r="0.9" fill="#dce9f5" opacity="0.7">
+<circle cx="470.0" cy="70" r="0.9" fill="#dce9f5" opacity="0.7">
       <animate attributeName="opacity" values="0.15;0.85;0.15" dur="3.4s" begin="2.6s" repeatCount="indefinite"/>
     </circle>
-<circle cx="545.0" cy="38" r="1.1" fill="#dce9f5" opacity="0.7">
+<circle cx="545.0" cy="40" r="1.1" fill="#dce9f5" opacity="0.7">
       <animate attributeName="opacity" values="0.15;0.85;0.15" dur="3.4s" begin="0.4s" repeatCount="indefinite"/>
     </circle>
-<circle cx="620.0" cy="74" r="1" fill="#dce9f5" opacity="0.7">
+<circle cx="620.0" cy="80" r="1" fill="#dce9f5" opacity="0.7">
       <animate attributeName="opacity" values="0.15;0.85;0.15" dur="3.4s" begin="1.5s" repeatCount="indefinite"/>
     </circle>
-<circle cx="700.0" cy="30" r="1.3" fill="#dce9f5" opacity="0.7">
+<circle cx="700.0" cy="32" r="1.3" fill="#dce9f5" opacity="0.7">
       <animate attributeName="opacity" values="0.15;0.85;0.15" dur="3.4s" begin="2.3s" repeatCount="indefinite"/>
     </circle>
-<circle cx="780.0" cy="58" r="0.9" fill="#dce9f5" opacity="0.7">
+<circle cx="780.0" cy="62" r="0.9" fill="#dce9f5" opacity="0.7">
       <animate attributeName="opacity" values="0.15;0.85;0.15" dur="3.4s" begin="0.9s" repeatCount="indefinite"/>
     </circle>
-<circle cx="840.0" cy="36" r="1.1" fill="#dce9f5" opacity="0.7">
+<circle cx="845.0" cy="38" r="1.1" fill="#dce9f5" opacity="0.7">
       <animate attributeName="opacity" values="0.15;0.85;0.15" dur="3.4s" begin="1.9s" repeatCount="indefinite"/>
     </circle>
-<circle cx="175.0" cy="100" r="0.8" fill="#dce9f5" opacity="0.7">
+<circle cx="175.0" cy="108" r="0.8" fill="#dce9f5" opacity="0.7">
       <animate attributeName="opacity" values="0.15;0.85;0.15" dur="3.4s" begin="2.8s" repeatCount="indefinite"/>
     </circle>
-<circle cx="520.0" cy="96" r="0.9" fill="#dce9f5" opacity="0.7">
+<circle cx="520.0" cy="102" r="0.9" fill="#dce9f5" opacity="0.7">
       <animate attributeName="opacity" values="0.15;0.85;0.15" dur="3.4s" begin="1.1s" repeatCount="indefinite"/>
     </circle>
-<circle cx="660.0" cy="104" r="0.8" fill="#dce9f5" opacity="0.7">
+<circle cx="660.0" cy="112" r="0.8" fill="#dce9f5" opacity="0.7">
       <animate attributeName="opacity" values="0.15;0.85;0.15" dur="3.4s" begin="0.3s" repeatCount="indefinite"/>
     </circle>
+<circle cx="250.0" cy="130" r="0.8" fill="#dce9f5" opacity="0.7">
+      <animate attributeName="opacity" values="0.15;0.85;0.15" dur="3.4s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+<circle cx="430.0" cy="122" r="0.9" fill="#dce9f5" opacity="0.7">
+      <animate attributeName="opacity" values="0.15;0.85;0.15" dur="3.4s" begin="1.6s" repeatCount="indefinite"/>
+    </circle>
   
-  <circle cx="795.0" cy="52" r="17" fill="#dce9f5" opacity="0.9"/>
-  <circle cx="795.0" cy="52" r="26" fill="#dce9f5" opacity="0.07"/>
-  <circle cx="789.0" cy="47" r="3.5" fill="#111823" opacity="0.25"/>
-  <circle cx="801.0" cy="58" r="2.5" fill="#111823" opacity="0.2"/>
-  <polygon points="0,250 90.0,170 190.0,205 300.0,140 420.0,198 540.0,132 660.0,190 770.0,152 900.0,250" fill="#111823"/>
-  <polygon points="40.0,250 230.0,128 320.0,172 450.0,52 575.0,158 660.0,118 860.0,250" fill="#161f2b"/>
-  <polygon points="450.0,52 415.0,92 432.0,84 450.0,98 470.0,80 486.0,90" fill="#dce9f5" opacity="0.85"/>
+  <circle cx="800.0" cy="56" r="18" fill="#dce9f5" opacity="0.9"/>
+  <circle cx="800.0" cy="56" r="28" fill="#dce9f5" opacity="0.07"/>
+  <circle cx="794.0" cy="50" r="3.5" fill="#111823" opacity="0.25"/>
+  <circle cx="806.0" cy="63" r="2.5" fill="#111823" opacity="0.2"/>
+  <polygon points="0,300 90.0,200 200.0,242 310.0,168 430.0,232 560.0,158 680.0,224 790.0,182 900.0,300" fill="#0c121b"/>
+  <polygon points="20.0,300 210.0,158 320.0,206 450.0,64 585.0,190 670.0,144 880.0,300" fill="#161f2b"/>
+  <polygon points="450.0,64 412.0,104 488.0,104" fill="#dce9f5" opacity="0.9"/>
+  <polygon points="450.0,64 430.0,88 450.0,80 468.0,90" fill="#ffffff" opacity="0.25"/>
   
-  <path d="M 150.0,242 C 230.0,225 255.0,200 310.0,190 S 365.0,160 392.0,130 S 430.0,92 450.0,58" fill="none" stroke="#5ee6d8" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="6 7" opacity="0.75">
-    <animate attributeName="stroke-dashoffset" values="130;0" dur="6s" repeatCount="indefinite"/>
+  <path d="M 170.0,288 C 250.0,262 272.0,232 320.0,214 S 378.0,176 404.0,142 S 438.0,96 450.0,66" fill="none" stroke="#5ee6d8" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="6 7" opacity="0.75">
+    <animate attributeName="stroke-dashoffset" values="140;0" dur="6s" repeatCount="indefinite"/>
   </path>
   
-  <g stroke="#ffb454" stroke-width="1.6" stroke-linecap="round" fill="none">
-    <circle cx="392.0" cy="121" r="2.2" fill="#ffb454" stroke="none"/>
-    <path d="M392.0,123 L392.0,129"/>
-    <path d="M392.0,125 L387.0,122"/>
-    <path d="M392.0,125 L397.0,121"/>
-    <path d="M392.0,129 L388.0,135"/>
-    <path d="M392.0,129 L396.0,134"/>
+  <g stroke="#ffb454" stroke-width="2.2" stroke-linecap="round" fill="none">
+    <circle cx="404.0" cy="129" r="3.2" fill="#ffb454" stroke="none"/>
+    <path d="M404.0,132 L404.0,141"/>
+    <path d="M404.0,135 L397.0,130"/>
+    <path d="M404.0,135 L411.0,129"/>
+    <path d="M404.0,141 L398.0,149"/>
+    <path d="M404.0,141 L410.0,148"/>
   </g>
-  <circle cx="392.0" cy="126" r="11" fill="#ffb454" opacity="0.10">
-    <animate attributeName="opacity" values="0.05;0.18;0.05" dur="2.8s" repeatCount="indefinite"/>
+  <circle cx="404.0" cy="137" r="15" fill="#ffb454" opacity="0.10">
+    <animate attributeName="opacity" values="0.05;0.20;0.05" dur="2.8s" repeatCount="indefinite"/>
   </circle>
   
-  <line x1="450.0" y1="52" x2="450.0" y2="30" stroke="#5ee6d8" stroke-width="1.4"/>
-  <polygon points="450.0,30 470.0,36 450.0,42" fill="#5ee6d8"/>
-  <circle cx="450.0" cy="52" r="4" fill="none" stroke="#5ee6d8" stroke-width="1.2" opacity="0">
-    <animate attributeName="r" values="4;22;22" dur="3.2s" repeatCount="indefinite"/>
+  <line x1="450.0" y1="64" x2="450.0" y2="34" stroke="#5ee6d8" stroke-width="1.6"/>
+  <polygon points="450.0,34 474.0,41 450.0,48" fill="#5ee6d8"/>
+  <circle cx="450.0" cy="64" r="3" fill="#5ee6d8"/>
+  <circle cx="450.0" cy="64" r="3" fill="none" stroke="#5ee6d8" stroke-width="1.2" opacity="0">
+    <animate attributeName="r" values="3;26;26" dur="3.2s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.9;0;0" dur="3.2s" repeatCount="indefinite"/>
   </circle></svg></g>
-  <g transform="translate(0,352)">
-  <text x="26" y="24" fill="#5ee6d8" font-size="12" letter-spacing="0.5">IDENTITY://WHOAMI</text>
-  <rect x="866" y="14" width="6" height="11" fill="#5ee6d8">
+  <polygon points="0,376 252.00000000000003,398 468,382 666,400 900,378 900,412 0,412" fill="#161f2b" opacity="0.35"/>
+  <g transform="translate(0,402)">
+  <text x="26" y="22" fill="#5ee6d8" font-size="12" letter-spacing="0.5">DOSSIER://EXPEDITION_LOG</text>
+  <rect x="866" y="12" width="6" height="11" fill="#5ee6d8">
     <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" keyTimes="0;0.5;0.51;1" repeatCount="indefinite"/>
   </rect>
-  <line x1="26" y1="31" x2="874" y2="31" stroke="#1f2833" stroke-width="1"/>
-  <text x="26" y="67" font-size="12.5"><tspan fill="#5b6b7c">NAME........ </tspan><tspan fill="#c9d6e3">Mohammad Ahmad</tspan></text>
-<text x="26" y="88" font-size="12.5"><tspan fill="#5b6b7c">ROLE........ </tspan><tspan fill="#c9d6e3">Software Engineer / Backend Developer</tspan></text>
-<text x="26" y="109" font-size="12.5"><tspan fill="#5b6b7c">FOCUS....... </tspan><tspan fill="#c9d6e3">Backend Development &amp; Distributed Systems</tspan></text>
-<text x="26" y="130" font-size="12.5"><tspan fill="#5b6b7c">EDUCATION... </tspan><tspan fill="#c9d6e3">Symbiosis Institute of Technology, Pune</tspan></text>
-<text x="26" y="159.39999999999998" fill="#2fb8ab" font-size="11" letter-spacing="1.5">STACK</text>
-<text x="42" y="190.89999999999998" font-size="12.5"><tspan fill="#5b6b7c">LANG........ </tspan><tspan fill="#c9d6e3">Java, JavaScript, Python, TypeScript</tspan></text>
-<text x="42" y="211.89999999999998" font-size="12.5"><tspan fill="#5b6b7c">BACKEND..... </tspan><tspan fill="#c9d6e3">Node.js, Express, FastAPI</tspan></text>
-<text x="42" y="232.89999999999998" font-size="12.5"><tspan fill="#5b6b7c">DATABASE.... </tspan><tspan fill="#c9d6e3">PostgreSQL, MongoDB, Redis</tspan></text>
-<text x="42" y="253.89999999999998" font-size="12.5"><tspan fill="#5b6b7c">INFRA....... </tspan><tspan fill="#c9d6e3">AWS, Docker, Kubernetes, GitHub Actions</tspan></text>
-<text x="26" y="283.29999999999995" fill="#2fb8ab" font-size="11" letter-spacing="1.5">SEEKING</text>
-<text x="42" y="314.79999999999995" font-size="12.5"><tspan fill="#5b6b7c">ROLES....... </tspan><tspan fill="#c9d6e3">Software Engineering Internships</tspan></text>
-<text x="42" y="335.79999999999995" font-size="12.5"><tspan fill="#5b6b7c">BUILDING.... </tspan><tspan fill="#c9d6e3">RoomSync — multi-service roommate allocation system</tspan></text>
-<text x="42" y="356.79999999999995" font-size="12.5"><tspan fill="#5b6b7c">LEARNING.... </tspan><tspan fill="#c9d6e3">Rust, System Design</tspan></text>
-<text x="26" y="386.19999999999993" fill="#2fb8ab" font-size="11" letter-spacing="1.5">LINKS</text>
-<text x="42" y="417.69999999999993" font-size="12.5"><tspan fill="#5b6b7c">GITHUB...... </tspan><tspan fill="#c9d6e3">github.com/Bitsnbytes14</tspan></text>
-<text x="42" y="438.69999999999993" font-size="12.5"><tspan fill="#5b6b7c">LINKEDIN.... </tspan><tspan fill="#c9d6e3">linkedin.com/in/mohammad-ahmad141004</tspan></text>
+  <line x1="26" y1="29" x2="874" y2="29" stroke="#1f2833" stroke-width="1"/>
+  <rect x="26" y="44" width="848" height="122" rx="4" fill="#0d131b" opacity="0.55"/>
+<rect x="26" y="44" width="2.5" height="122" fill="#5ee6d8" opacity="0.5"/>
+<text x="42" y="61" fill="#5ee6d8" font-size="10.5" letter-spacing="2">SUBJECT</text>
+<line x1="42" y1="67" x2="858" y2="67" stroke="#1f2833" stroke-width="1"/>
+<line x1="34" y1="78" x2="38" y2="78" stroke="#5b6b7c" stroke-width="1" opacity="0.6"/>
+<text x="46" y="82" font-size="12.5"><tspan fill="#5b6b7c">NAME....... </tspan><tspan fill="#c9d6e3">Mohammad Ahmad</tspan></text>
+<line x1="34" y1="99" x2="38" y2="99" stroke="#5b6b7c" stroke-width="1" opacity="0.6"/>
+<text x="46" y="103" font-size="12.5"><tspan fill="#5b6b7c">ROLE....... </tspan><tspan fill="#c9d6e3">Software Engineer / Backend Developer</tspan></text>
+<line x1="34" y1="120" x2="38" y2="120" stroke="#5b6b7c" stroke-width="1" opacity="0.6"/>
+<text x="46" y="124" font-size="12.5"><tspan fill="#5b6b7c">FOCUS...... </tspan><tspan fill="#c9d6e3">Backend Development &amp; Distributed Systems</tspan></text>
+<line x1="34" y1="141" x2="38" y2="141" stroke="#5b6b7c" stroke-width="1" opacity="0.6"/>
+<text x="46" y="145" font-size="12.5"><tspan fill="#5b6b7c">EDUCATION.. </tspan><tspan fill="#c9d6e3">Symbiosis Institute of Technology, Pune</tspan></text>
+<rect x="26" y="178" width="848" height="122" rx="4" fill="#0d131b" opacity="0.55"/>
+<rect x="26" y="178" width="2.5" height="122" fill="#5ee6d8" opacity="0.5"/>
+<text x="42" y="195" fill="#5ee6d8" font-size="10.5" letter-spacing="2">STACK</text>
+<line x1="42" y1="201" x2="858" y2="201" stroke="#1f2833" stroke-width="1"/>
+<line x1="34" y1="212" x2="38" y2="212" stroke="#5b6b7c" stroke-width="1" opacity="0.6"/>
+<text x="46" y="216" font-size="12.5"><tspan fill="#5b6b7c">LANG....... </tspan><tspan fill="#c9d6e3">Java, JavaScript, Python, TypeScript</tspan></text>
+<line x1="34" y1="233" x2="38" y2="233" stroke="#5b6b7c" stroke-width="1" opacity="0.6"/>
+<text x="46" y="237" font-size="12.5"><tspan fill="#5b6b7c">BACKEND.... </tspan><tspan fill="#c9d6e3">Node.js, Express, FastAPI</tspan></text>
+<line x1="34" y1="254" x2="38" y2="254" stroke="#5b6b7c" stroke-width="1" opacity="0.6"/>
+<text x="46" y="258" font-size="12.5"><tspan fill="#5b6b7c">DATABASE... </tspan><tspan fill="#c9d6e3">PostgreSQL, MongoDB, Redis</tspan></text>
+<line x1="34" y1="275" x2="38" y2="275" stroke="#5b6b7c" stroke-width="1" opacity="0.6"/>
+<text x="46" y="279" font-size="12.5"><tspan fill="#5b6b7c">INFRA...... </tspan><tspan fill="#c9d6e3">AWS, Docker, Kubernetes, GitHub Actions</tspan></text>
+<rect x="26" y="312" width="848" height="101" rx="4" fill="#0d131b" opacity="0.55"/>
+<rect x="26" y="312" width="2.5" height="101" fill="#5ee6d8" opacity="0.5"/>
+<text x="42" y="329" fill="#5ee6d8" font-size="10.5" letter-spacing="2">SEEKING</text>
+<line x1="42" y1="335" x2="858" y2="335" stroke="#1f2833" stroke-width="1"/>
+<line x1="34" y1="346" x2="38" y2="346" stroke="#5b6b7c" stroke-width="1" opacity="0.6"/>
+<text x="46" y="350" font-size="12.5"><tspan fill="#5b6b7c">ROLES...... </tspan><tspan fill="#c9d6e3">Software Engineering Internships</tspan></text>
+<line x1="34" y1="367" x2="38" y2="367" stroke="#5b6b7c" stroke-width="1" opacity="0.6"/>
+<text x="46" y="371" font-size="12.5"><tspan fill="#5b6b7c">BUILDING... </tspan><tspan fill="#c9d6e3">RoomSync — multi-service roommate allocation system</tspan></text>
+<line x1="34" y1="388" x2="38" y2="388" stroke="#5b6b7c" stroke-width="1" opacity="0.6"/>
+<text x="46" y="392" font-size="12.5"><tspan fill="#5b6b7c">LEARNING... </tspan><tspan fill="#c9d6e3">Rust, System Design</tspan></text>
+<rect x="26" y="425" width="848" height="80" rx="4" fill="#0d131b" opacity="0.55"/>
+<rect x="26" y="425" width="2.5" height="80" fill="#5ee6d8" opacity="0.5"/>
+<text x="42" y="442" fill="#5ee6d8" font-size="10.5" letter-spacing="2">LINKS</text>
+<line x1="42" y1="448" x2="858" y2="448" stroke="#1f2833" stroke-width="1"/>
+<line x1="34" y1="459" x2="38" y2="459" stroke="#5b6b7c" stroke-width="1" opacity="0.6"/>
+<text x="46" y="463" font-size="12.5"><tspan fill="#5b6b7c">GITHUB..... </tspan><tspan fill="#c9d6e3">github.com/Bitsnbytes14</tspan></text>
+<line x1="34" y1="480" x2="38" y2="480" stroke="#5b6b7c" stroke-width="1" opacity="0.6"/>
+<text x="46" y="484" font-size="12.5"><tspan fill="#5b6b7c">LINKEDIN... </tspan><tspan fill="#c9d6e3">linkedin.com/in/mohammad-ahmad141004</tspan></text>
 </g>
   
-  <line x1="26" y1="822.1499999999999" x2="874" y2="822.1499999999999" stroke="#1f2833" stroke-width="1"/>
-  <text x="450" y="840.1499999999999" fill="#5b6b7c" font-size="10.5" letter-spacing="1.4" text-anchor="middle">[ THE SUMMIT IS ALWAYS ONE MORE COMMIT AWAY ]</text>
+  <line x1="26" y1="931" x2="874" y2="931" stroke="#1f2833" stroke-width="1"/>
+  <text x="450" y="949" fill="#5b6b7c" font-size="10.5" letter-spacing="1.4" text-anchor="middle">[ THE SUMMIT IS ALWAYS ONE MORE COMMIT AWAY ]</text>
   
   <g stroke="#5b6b7c" stroke-width="1.2" fill="none" opacity="0.7">
     <path d="M4,16 L4,4 L16,4"/>
     <path d="M884,4 L896,4 L896,16"/>
-    <path d="M4,852.1499999999999 L4,864.1499999999999 L16,864.1499999999999"/>
-    <path d="M884,864.1499999999999 L896,864.1499999999999 L896,852.1499999999999"/>
+    <path d="M4,961 L4,973 L16,973"/>
+    <path d="M884,973 L896,973 L896,961"/>
   </g>
 </svg>
