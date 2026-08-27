@@ -1,7 +1,7 @@
 <svg width="900" height="1031" viewBox="0 0 900 1031" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="'JetBrains Mono','Fira Code',ui-monospace,Menlo,Consolas,monospace">
   <rect x="0" y="0" width="900" height="1031" rx="8" fill="#0a0e14" stroke="#1f2833" stroke-width="1"/>
   
-  <text x="26" y="48" fill="#5ee6d8" font-size="26" font-weight="bold" letter-spacing="2">&gt;_ BITSNBYTES14</text>
+  <text x="26" y="48" fill="#5ee6d8" font-size="26" font-weight="bold" letter-spacing="2">&gt;_&lt; BITSNBYTES14</text>
   <text x="26" y="71" fill="#5b6b7c" font-size="11.5" letter-spacing="1.6">BUILDING SYSTEMS. CHASING IMPOSSIBLE SUMMITS.</text>
   <line x1="26" y1="82" x2="874" y2="82" stroke="#1f2833" stroke-width="1"/>
   <g transform="translate(0,88)"><svg x="0" y="0" width="900" height="300" viewBox="0 0 900 300">
@@ -165,7 +165,7 @@
 </g>
   
   <line x1="26" y1="931" x2="874" y2="931" stroke="#1f2833" stroke-width="1"/>
-  <text x="450" y="949" fill="#5b6b7c" font-size="10.5" letter-spacing="1.4" text-anchor="middle">[ THE SUMMIT IS ALWAYS ONE MORE COMMIT AWAY ]</text>
+  <text x="450" y="949" fill="#5b6b7c" font-size="10.5" letter-spacing="1.4" text-anchor="middle">[ THE SUMMIT IS JUST ONE MORE COMMIT AWAY ]</text>
   <g transform="translate(0,963)">
   <g transform="translate(450,52)">
     <!-- soft glow under the cat -->
