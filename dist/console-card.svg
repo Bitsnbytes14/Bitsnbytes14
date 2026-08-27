@@ -165,7 +165,7 @@
 </g>
   
   <line x1="26" y1="931" x2="874" y2="931" stroke="#1f2833" stroke-width="1"/>
-  <text x="450" y="949" fill="#5b6b7c" font-size="10.5" letter-spacing="1.4" text-anchor="middle">[ THE SUMMIT IS JUST ONE MORE COMMIT AWAY ]</text>
+  <text x="450" y="949" fill="#5b6b7c" font-size="10.5" letter-spacing="1.4" text-anchor="middle">[ THE SUMMIT IS JUST ONE COMMIT AWAY ]</text>
   <g transform="translate(0,963)">
   <g transform="translate(450,52)">
     <!-- soft glow under the cat -->
